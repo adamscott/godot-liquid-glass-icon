@@ -2,10 +2,7 @@
   "fill-specializations" : [
     {
       "value" : {
-        "linear-gradient" : [
-          "display-p3:0.34510,0.54118,0.73333,1.00000",
-          "display-p3:0.20000,0.24706,0.40392,1.00000"
-        ]
+        "automatic-gradient" : "display-p3:0.00000,0.30514,0.60261,1.00000"
       }
     },
     {
@@ -17,137 +14,33 @@
     {
       "layers" : [
         {
-          "blend-mode-specializations" : [
-            {
-              "value" : "normal"
-            },
-            {
-              "appearance" : "dark",
-              "value" : "plus-lighter"
-            }
-          ],
-          "fill-specializations" : [
-            {
-              "value" : {
-                "automatic-gradient" : "extended-gray:1.00000,1.00000"
-              }
-            },
-            {
-              "appearance" : "dark",
-              "value" : {
-                "linear-gradient" : [
-                  "display-p3:0.51801,0.68272,0.84413,1.00000",
-                  "display-p3:0.34510,0.54118,0.73333,1.00000"
-                ]
-              }
-            }
-          ],
-          "glass" : true,
-          "hidden-specializations" : [
-            {
-              "value" : true
-            },
-            {
-              "appearance" : "dark",
-              "value" : false
-            }
-          ],
-          "image-name" : "icon_monochrome_light.svg",
-          "name" : "Color",
-          "position" : {
-            "scale" : 0.925,
-            "translation-in-points" : [
-              0,
-              0
-            ]
-          }
+          "image-name" : "icon_color_3.svg",
+          "name" : "icon_color_3"
         },
         {
-          "blend-mode-specializations" : [
-            {
-              "value" : "normal"
-            },
-            {
-              "appearance" : "dark",
-              "value" : "normal"
-            }
-          ],
-          "fill-specializations" : [
-            {
-              "value" : {
-                "automatic-gradient" : "extended-gray:1.00000,1.00000"
-              }
-            },
-            {
-              "appearance" : "dark",
-              "value" : {
-                "solid" : "extended-gray:0.15282,1.00000"
-              }
-            }
-          ],
-          "glass" : true,
-          "hidden-specializations" : [
-            {
-              "value" : true
-            },
-            {
-              "appearance" : "dark",
-              "value" : false
-            }
-          ],
-          "image-name" : "icon_monochrome_light.svg",
-          "name" : "Lightness",
-          "position" : {
-            "scale" : 0.925,
-            "translation-in-points" : [
-              0,
-              0
-            ]
-          }
-        }
-      ],
-      "name" : "Dark",
-      "shadow" : {
-        "kind" : "neutral",
-        "opacity" : 0.5
-      },
-      "translucency" : {
-        "enabled" : true,
-        "value" : 0.5
-      }
-    },
-    {
-      "blur-material" : null,
-      "hidden" : false,
-      "layers" : [
+          "image-name" : "icon_color_2.svg",
+          "name" : "icon_color_2"
+        },
         {
-          "blend-mode" : "normal",
           "fill" : {
-            "solid" : "extended-gray:1.00000,1.00000"
+            "automatic-gradient" : "display-p3:0.00000,0.50636,1.00000,1.00000"
           },
-          "glass" : true,
-          "hidden-specializations" : [
-            {
-              "value" : false
-            },
-            {
-              "appearance" : "dark",
-              "value" : true
-            }
-          ],
-          "image-name" : "icon_monochrome_light.svg",
-          "name" : "Default",
-          "position" : {
-            "scale" : 0.925,
-            "translation-in-points" : [
-              0,
-              0
-            ]
-          }
+          "image-name" : "icon_color_1.svg",
+          "name" : "icon_color_1"
+        },
+        {
+          "image-name" : "icon_color_0.svg",
+          "name" : "icon_color_0"
         }
       ],
-      "lighting" : "combined",
-      "name" : "Default",
+      "lighting" : "individual",
+      "position" : {
+        "scale" : 0.92,
+        "translation-in-points" : [
+          0,
+          0
+        ]
+      },
       "shadow" : {
         "kind" : "neutral",
         "opacity" : 0.5
