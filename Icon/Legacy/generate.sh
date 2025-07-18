@@ -41,16 +41,16 @@ convert_icon () {
 }
 
 mkdir -p GodotLG-Default.iconset/
-mkdir -p GodotLG-Dark.iconset/
+# mkdir -p GodotLG-Dark.iconset/
 
 convert_icon GodotLG-Default ../Export/GodotLG-macOS-Default-1024x1024@2x.webp ""
-convert_icon GodotLG-Dark ../Export/GodotLG-macOS-Dark-1024x1024@2x.webp "~dark"
+# convert_icon GodotLG-Dark ../Export/GodotLG-macOS-Dark-1024x1024@2x.webp "~dark"
 
 mkdir -p GodotLG.iconset
 cp GodotLG-Default.iconset/* GodotLG.iconset/
-cp GodotLG-Dark.iconset/* GodotLG.iconset/
+# cp GodotLG-Dark.iconset/* GodotLG.iconset/
 rm -rf GodotLG-Default.iconset/
-rm -rf GodotLG-Dark.iconset/
+# rm -rf GodotLG-Dark.iconset/
 
 iconutil -c icns GodotLG.iconset
 
