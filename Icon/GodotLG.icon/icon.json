@@ -23,33 +23,22 @@
       ],
       "layers" : [
         {
-          "image-name" : "icon_color_3.svg",
-          "name" : "icon_color_3"
+          "image-name" : "layer_2.svg",
+          "name" : "layer_2"
         },
         {
-          "image-name" : "icon_color_2.svg",
-          "name" : "icon_color_2"
+          "fill" : {
+            "automatic-gradient" : "srgb:0.00000,0.50588,1.00000,1.00000"
+          },
+          "image-name" : "layer_1.svg",
+          "name" : "layer_1"
         },
         {
-          "fill-specializations" : [
-            {
-              "value" : {
-                "automatic-gradient" : "display-p3:0.00000,0.50636,1.00000,1.00000"
-              }
-            },
-            {
-              "appearance" : "tinted",
-              "value" : {
-                "automatic-gradient" : "gray:0.50516,1.00000"
-              }
-            }
-          ],
-          "image-name" : "icon_color_1.svg",
-          "name" : "icon_color_1"
-        },
-        {
-          "image-name" : "icon_color_0.svg",
-          "name" : "icon_color_0"
+          "fill" : {
+            "automatic-gradient" : "extended-gray:1.00000,1.00000"
+          },
+          "image-name" : "layer_0.svg",
+          "name" : "layer_0"
         }
       ],
       "lighting-specializations" : [
